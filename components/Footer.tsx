@@ -41,7 +41,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="link-underline text-[15px] text-paper/80 transition-colors hover:text-paper"
+                    className="tap link-underline text-[15px] text-paper/80 transition-colors hover:text-paper"
                   >
                     {item.label}
                   </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
                   href={site.maps}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-underline transition-colors hover:text-paper"
+                  className="tap link-underline transition-colors hover:text-paper"
                 >
                   {site.address}
                 </a>
@@ -68,7 +68,7 @@ export default function Footer() {
               <li>
                 <a
                   href={`mailto:${site.email}`}
-                  className="link-underline break-all transition-colors hover:text-paper"
+                  className="tap link-underline break-all transition-colors hover:text-paper"
                 >
                   {site.email}
                 </a>
@@ -76,7 +76,7 @@ export default function Footer() {
               <li>
                 <a
                   href={`tel:+${site.phoneRaw}`}
-                  className="link-underline transition-colors hover:text-paper"
+                  className="tap link-underline transition-colors hover:text-paper"
                 >
                   {site.phone}
                 </a>
@@ -86,7 +86,7 @@ export default function Footer() {
                   href={site.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-underline transition-colors hover:text-paper"
+                  className="tap link-underline transition-colors hover:text-paper"
                 >
                   LinkedIn
                 </a>

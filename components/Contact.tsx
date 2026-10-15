@@ -130,7 +130,7 @@ export default function Contact() {
                       href={site.maps}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="link-underline text-[16px] text-ink transition-colors hover:text-teal"
+                      className="tap link-underline text-[16px] text-ink transition-colors hover:text-teal"
                     >
                       {site.address}
                     </a>
@@ -144,7 +144,7 @@ export default function Contact() {
                   <dd className="mt-2">
                     <a
                       href={`mailto:${site.email}`}
-                      className="link-underline break-all text-[15px] text-ink transition-colors hover:text-teal md:text-[16px]"
+                      className="tap link-underline break-all text-[15px] text-ink transition-colors hover:text-teal md:text-[16px]"
                     >
                       {site.email}
                     </a>
@@ -155,7 +155,7 @@ export default function Contact() {
                   <dd className="mt-2">
                     <a
                       href={`tel:+${site.phoneRaw}`}
-                      className="link-underline text-[16px] text-ink transition-colors hover:text-teal"
+                      className="tap link-underline text-[16px] text-ink transition-colors hover:text-teal"
                     >
                       {site.phone}
                     </a>
@@ -171,7 +171,7 @@ export default function Contact() {
                   href={site.whatsappMessage}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2.5 rounded-full border border-ink/15 px-5 py-2.5 text-[14px] text-ink transition-colors hover:border-teal hover:text-teal"
+                  className="inline-flex items-center gap-2.5 rounded-full border border-ink/15 px-5 py-3 text-[14px] text-ink transition-colors hover:border-teal hover:text-teal"
                 >
                   WhatsApp
                 </a>
@@ -179,7 +179,7 @@ export default function Contact() {
                   href={site.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2.5 rounded-full border border-ink/15 px-5 py-2.5 text-[14px] text-ink transition-colors hover:border-teal hover:text-teal"
+                  className="inline-flex items-center gap-2.5 rounded-full border border-ink/15 px-5 py-3 text-[14px] text-ink transition-colors hover:border-teal hover:text-teal"
                 >
                   LinkedIn
                 </a>

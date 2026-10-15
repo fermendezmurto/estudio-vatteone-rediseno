@@ -43,7 +43,7 @@ export default function ServicesList() {
             <Reveal delay={2}>
               <Link
                 href="/servicios"
-                className="link-underline mt-8 inline-flex items-center gap-2 text-[15px] font-medium text-teal"
+                className="tap link-underline mt-8 inline-flex items-center gap-2 text-[15px] font-medium text-teal"
               >
                 Ver el detalle de cada servicio
                 <span aria-hidden="true">→</span>

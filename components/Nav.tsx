@@ -43,7 +43,7 @@ export default function Nav() {
         <div className="mx-auto flex h-[72px] max-w-[1400px] items-center justify-between px-6 md:h-20 lg:px-10">
           <Link
             href="/"
-            className="group flex items-center gap-3"
+            className="group flex min-h-[44px] items-center gap-3"
             aria-label={`${site.name} — inicio`}
           >
             <Image

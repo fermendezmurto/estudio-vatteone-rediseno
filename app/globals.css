@@ -84,6 +84,17 @@
     );
   }
 
+  /* Área táctil mínima en pantallas de dedo. WCAG 2.5.8 pide 24px y 2.5.5
+     recomienda 44px; los enlaces de texto del pie y de contacto medían 18px.
+     Sólo aplica a punteros gruesos, así que el desktop no cambia. */
+  @media (pointer: coarse) {
+    .tap {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+    }
+  }
+
   /* Subrayado que crece desde la izquierda al hover */
   .link-underline {
     position: relative;
